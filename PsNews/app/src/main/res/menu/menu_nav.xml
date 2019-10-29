@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home">
+        </item>
+        <item
+            android:id="@+id/menu_home01"
+            android:title="Subscribe categories"
+            android:icon="@drawable/ic_categories">
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Related News">
+
+        <menu>
+
+            <item
+                android:title="Editor Picked News"
+                android:id="@+id/menu_editor_picked_news"
+                android:icon="@drawable/ic_volume">
+            </item>
+            <item
+                android:title="Trending News"
+                android:id="@+id/menu_trending"
+                android:icon="@drawable/ic_grafico">
+
+            </item>
+            <item
+                android:title="Recent News"
+                android:id="@+id/menu_recent_news"
+                android:icon="@drawable/ic_relogio">
+
+            </item>
+            <item
+                android:title="Search News"
+                android:id="@+id/menu_search_news"
+                android:icon="@drawable/ic_pesquisa">
+
+            </item>
+        </menu>
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="User info"
+            android:id="@+id/menu_user_info">
+            <menu>
+                <item
+                    android:title="Profile"
+                    android:id="@+id/menu_profile"
+                    android:icon="@drawable/ic_profile">
+
+                </item>
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
