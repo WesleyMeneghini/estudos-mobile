@@ -5,15 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityLogin"
-    android:background="@color/colorPrimary">
+    tools:context=".MainActivityLogin">
 
 
 
     <RelativeLayout
         android:id="@+id/bkg_img_login"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="270dp"
         android:background="@drawable/paisagem">
 
         <RelativeLayout
@@ -38,7 +37,7 @@
     <RelativeLayout
         android:id="@+id/container_dados"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:layout_below="@+id/bkg_img_login"
         android:layout_marginTop="-55dp"
         android:padding="20dp">
@@ -46,10 +45,13 @@
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="5dp"
-            android:elevation="@dimen/cardview_compat_inset_shadow"
-            >
+            android:layout_margin="5dp"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardElevation="4dp">
 
             <RelativeLayout
                 android:id="@+id/container_dados_login"
@@ -99,7 +101,6 @@
             </RelativeLayout>
 
 
-
         </android.support.v7.widget.CardView>
 
 
@@ -118,6 +119,7 @@
             android:id="@+id/btn_login"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:text="Login"
             android:layout_centerHorizontal="true"/>
 
@@ -135,14 +137,16 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="Not a member? Join Now"
-            android:layout_marginBottom="10dp"/>
+            android:layout_above="@+id/txt_your_password"/>
         <TextView
+            android:id="@+id/txt_your_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="Forgot your password?"
             android:layout_marginBottom="10dp"
-            android:layout_below="@id/txt_not_member"/>
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="35dp"/>
 
     </RelativeLayout>
 

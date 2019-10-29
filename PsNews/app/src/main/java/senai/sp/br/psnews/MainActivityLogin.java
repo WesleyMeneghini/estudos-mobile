@@ -53,7 +53,6 @@ public class MainActivityLogin extends AppCompatActivity {
                         Intent abrirActivityCategories = new Intent(MainActivityLogin.this, ActivityCategories.class);
                         startActivity(abrirActivityCategories);
 
-
                     }
                 }
 
