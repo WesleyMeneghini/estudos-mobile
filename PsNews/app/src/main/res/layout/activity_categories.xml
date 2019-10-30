@@ -142,13 +142,13 @@
                             <de.hdodenhof.circleimageview.CircleImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/commentary"
+                                android:src="@drawable/health"
                                 android:layout_marginBottom="5dp"/>
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Commentary"
+                                android:text="Health"
                                 android:textAlignment="center"/>
 
                         </LinearLayout>
@@ -320,6 +320,6 @@
 
     </RelativeLayout>
 
-    <!--<include layout="@layout/navigation_view"></include>-->
+    <include layout="@layout/navigation_view"></include>
 
 </android.support.v4.widget.DrawerLayout>
