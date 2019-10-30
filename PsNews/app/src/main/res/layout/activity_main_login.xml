@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivityLogin">
+    tools:context=".MainActivityLogin"
+    android:background="@color/colorWhite">
 
 
 
@@ -112,7 +113,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/container_dados"
         android:layout_marginTop="-45dp"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="20dp"
+        >
 
         <Button
             android:id="@+id/btn_login"
