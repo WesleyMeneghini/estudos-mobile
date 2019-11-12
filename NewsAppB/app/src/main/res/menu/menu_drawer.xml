@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/subscribe"
+        android:title="Subscribe Categories"
+        android:icon="@drawable/ic_subscrib"/>
+    <item
+        android:id="@+id/related_news"
+        android:title="Related News"
+        android:icon="@drawable/ic_subscrib">
+
+        <menu>
+            <item
+                android:id="@+id/editor_picked_news"
+                android:title="Editor Picked News"
+                android:icon="@drawable/ic_microfone"/>
+            <item
+                android:id="@+id/trending"
+                android:title="Trending News"
+                android:icon="@drawable/ic_grafico"/>
+            <item
+                android:id="@+id/recent_news"
+                android:title="Recent News"
+                android:icon="@drawable/ic_time"/>
+            <item
+                android:id="@+id/search_news"
+                android:title="Search News"
+                android:icon="@drawable/ic_pesquisa"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/user_info"
+        android:title="User Info">
+
+        <menu>
+            <item android:id="@+id/user"
+                android:title="">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
