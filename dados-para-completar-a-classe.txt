@@ -1,0 +1,32 @@
+biblioteca 
+retroFit
+
+
+// Colocar na classe RecyclerAdaptor dentro do metodo onBindViewHolder
+RecyclerAdaptor
+
+
+new DownloadImageTask(holder.imageArtigo).execute(artigo.getEnclosure().getUrl());
+
+holder.btnLerArtigo.setOnclickListener( new View.Oncli){
+	onClick(){
+		Intent abrirNavegador = new Intent(Intent.ACTION_VIEW, artigo.getSource());
+		holder.itemView.getContext().startActivity(abrirNavegador);
+	}
+}
+
+
+
+
+
+
+
+// colocar na imagem do artigo do xml (para colocar a imagem ocupando todo o espaço do ImageView)
+
+android:scaleType="fitXY"
+
+
+
+
+
+

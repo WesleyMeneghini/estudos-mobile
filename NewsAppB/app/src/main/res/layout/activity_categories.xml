@@ -45,6 +45,7 @@
             android:layout_weight="1">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/business"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:src="@drawable/business"
