@@ -22,12 +22,12 @@ public class CategoriesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
 
         toolbar.setTitle("Categories");
         setSupportActionBar(toolbar);
 
-        business = (CircleImageView) findViewById(R.id.business);
+        business = findViewById(R.id.business);
         business.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
